@@ -1,0 +1,33 @@
+# Node modules (must ignore)
+node_modules
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+logs
+
+# Environment files
+.env
+.env.*
+
+# Build output (we build inside container)
+dist
+build
+
+# Docker files (not needed inside image)
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+
+# Tests
+coverage
